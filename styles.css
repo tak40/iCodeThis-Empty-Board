@@ -1,0 +1,130 @@
+/** @format */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f4f7;
+    color: #333;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.user-controls {
+    display: flex;
+    align-items: center;
+}
+
+.add-board {
+    font-size: 1.5rem;
+    background-color: #5cb85c; 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+}
+
+.fa-face-smile-wink {
+    margin-right: 0.5rem;
+}
+
+.board-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.board-overview h1 {
+    font-size: 1.75rem;
+    color: #333;
+}
+
+.board-overview span {
+    display: block;
+    color: #888;
+    margin-top: 0.5rem;
+}
+
+.empty-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+}
+
+.img-middle {
+    max-width: 20em;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.empty-board__title {
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.empty-message p {
+    margin-bottom: 1rem;
+    color: #555;
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fa-magnifying-glass,
+.fa-grip,
+.fa-bars {
+    margin: 0 0.5rem;
+    color: #5cb85c; 
+    cursor: pointer;
+}
+
+/* Hover effects */
+.add-board:hover,
+.user-menu:hover,
+.fa-magnifying-glass:hover,
+.fa-grip:hover,
+.fa-bars:hover {
+    opacity: 0.8;
+}
